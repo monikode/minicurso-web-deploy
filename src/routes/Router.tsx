@@ -9,24 +9,9 @@ export const Router: any = () => {
     return (
         <Routes>
             <Route
-                path={RoutersPathName.Login}
-                element={<Login/>}
-            />
-
-            <Route
-                path="/"
-                element={
-                    <RequireAuth>
-                        <Layout/>
-                    </RequireAuth>
-                }
+                path="/minicurso-web-deploy*" 
+                element={<Home/>}
             >
-                <Route
-                    path={RoutersPathName.Home}
-                    element={<Home/>}
-                />
-
-
             </Route>
         </Routes>
     )
