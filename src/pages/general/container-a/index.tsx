@@ -2,8 +2,9 @@
 export function ContainerA() {
 
     const style = `
-    v-full h-full h-screen flex flex-row border-orange-$00
-    surface-overlaay
+    w-full h-full h-screen flex flex-row border-orange-500
+    surface-overlay
+    border-3
     border-round
     font-bold m-2
     flex
